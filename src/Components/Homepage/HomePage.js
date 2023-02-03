@@ -31,12 +31,12 @@ const HomePage = () => {
                 </div>
                 <div className='content'>
                     <div className='heading-logo-container'>
-                        <img src={viteconLogo} alt='vit-logo' />
+                        <img src={viteconLogo} alt='vit-logo'/>
                     </div>
                     <div className='heading-primary'>
                         <span className='small'> IEEE 2nd International Conference on </span><br />
-                        <span className='orange'>Vi</span>sion <span className='orange'>T</span>owards <span className='orange'>E</span>merging Trends in <br />
-                        <span className='orange'>Co</span>mmunication and <span className='orange'>N</span>etworking Technologies
+                        <p><span className='orange'>Vi</span>sion <span className='orange'>T</span>owards <span className='orange'>E</span>merging Trends in <br />
+                        <span className='orange'>Co</span>mmunication and <span className='orange'>N</span>etworking Technologies</p>
                     </div>
                     <div className='heading-primary orange-only'>
                         ViTECoN-2023

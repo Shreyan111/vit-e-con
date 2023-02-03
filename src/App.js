@@ -5,7 +5,7 @@ import NavBar from './Components/Navbar/NavBar';
 import ContactUsSection from './Components/ContactUsSection copy/ContactUsSection';
 import CallForPaper from './Components/CallForPaper/CallForPaper';
 import Committee from './Components/Committee/Committee';
-import Keynote from './Components/Keynote/Keynote';
+// import Keynote from './Components/Keynote/Keynote';
 import Publication from './Components/Publication/Publication';
 import Registration from './Components/Registration/Registration';
 import ImpDates from './Components/ImpDates/ImpDates';

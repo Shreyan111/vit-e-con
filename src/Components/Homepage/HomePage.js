@@ -1,5 +1,6 @@
 import React from 'react'
 import './HomePage.Styles.scss'
+import { Carousels } from '../Carousel/Carousels'
 import vitLogo from '../../Assets/images/logo.png'
 import viteconLogo from '../../Assets/images/vitecon-logo1.png'
 import ieeeLogo from '../../Assets/images/ieee-logo.png'
@@ -97,6 +98,10 @@ const HomePage = () => {
                         <div className='date'>5th - 6th May, 2023</div>
                     </div>
                 </div>
+            </section>
+
+            <section>
+                <Carousels></Carousels>
             </section>
 
             <section className='countdown-section'>

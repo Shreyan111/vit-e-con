@@ -1,0 +1,51 @@
+.carousel {
+  overflow-x: hidden;
+
+  .slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+    width: 1500px;
+    overflow-x: hidden;
+
+    .slide {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      img {
+        max-width: 100%;
+        max-height: 100%;
+        width: 250px;
+        transition: opacity 0.5s ease-in-out;
+      }
+    }
+  }
+
+  .previous-button{
+    position: relative;
+    top: 140px;
+    left: 20px;
+    z-index: 1;
+  }
+
+  .next-button{
+    position: relative;
+    top: 140px;
+    float: right;
+    right: 20px;
+    z-index: 1;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .carousel{
+    .slides{
+      width: 1200px;
+      .slide{
+        img{
+          width: 150px;
+        }
+      }
+    }
+  }
+}

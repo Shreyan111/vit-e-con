@@ -11,6 +11,7 @@ const NavBar = () => {
   const navigate = useNavigate()
   const [open, setOpen] = useState(false)
 
+  //when click a option from the navbar and when it redirects to other page the navbar should close
   useEffect(() => {
     setOpen(false)
     if (location.hash) {

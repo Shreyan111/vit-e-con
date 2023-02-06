@@ -23,7 +23,7 @@
     .menu-icon:after,
     .menu-icon:before,
     .menu-icon div{
-        background-color: #1C3879;
+        background-color: #F0EBE3;
     }
 
     .nav-container{
@@ -78,6 +78,13 @@
     margin: 0;
     width: 30px;
     cursor: pointer;
+    background-color: #1C3879;
+}
+
+.menu-icon.closed{
+    margin: 0;
+    width: 30px;
+    cursor: pointer;
     background-color: #F0EBE3;
 }
 
@@ -92,15 +99,23 @@
     transition: all 0.2s ease-in-out;
 }
 
+.menu-icon.closed{
+    .straight-angle{
+        background-color: #1C3879;
+    }
+}
+
 /*Note: If you changed width of lines of head of arrow, then you also might have to set the transformation of those line accordingly*/
 .menu-icon.closed:before {
     transform: translateY(3px) translateX(-2px) rotate(135deg);
     width: 17px;
+    background-color: #1C3879
 }
 
 .menu-icon.closed:after {
     transform: translateY(-3px) translateX(-2px) rotate(-135deg);
     width: 17px;
+    background-color: #1C3879
 }
 
 @media only screen and (max-width: 999px){

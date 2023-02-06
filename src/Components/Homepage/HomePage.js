@@ -100,7 +100,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <section>
+            <section style={{backgroundColor:"#E9E4F0"}}>
                 <Carousels></Carousels>
             </section>
 

@@ -61,7 +61,7 @@ const NavBar = () => {
           </Link>
           <Link className='nav-option' to='/call-for-paper'>Call for Paper</Link>
           <Link className='nav-option' to='/publication'>Publication</Link>
-          <Link className='nav-option' to='/publication'>Speakers</Link>
+          <Link className='nav-option' to='/speakers'>Speakers</Link>
           <Link className='nav-option' to='/registration'>Registration</Link>
           <Link className='nav-option' to='/#map-section'>Venue</Link>
           <Link className='nav-option' to={location.pathname === "/" ? '/#contact-us-section' : location.pathname + '/#contact-us-section'}>Contact Us</Link>
@@ -83,7 +83,7 @@ const NavBar = () => {
         </Menu>
 
         <div className={open ? 'menu-icon closed' : 'menu-icon'} onClick={handleClick}>
-          <div></div>
+          <div className={open ? 'straight-angle' : 'straight'}></div>
         </div>
 
         <div className={open ? 'menu-container opened' : 'menu-container'}>
@@ -97,7 +97,7 @@ const NavBar = () => {
           </Link>
           <Link className='nav-option' to='/call-for-paper'>Call for Paper</Link>
           <Link className='nav-option' to='/publication'>Publication</Link>
-          <Link className='nav-option' to='/publication'>Speakers</Link>
+          <Link className='nav-option' to='/speakers'>Speakers</Link>
           <Link className='nav-option' to='/registration'>Registration</Link>
           <Link className='nav-option' to='/#map-section'>Venue</Link>
           <Link className='nav-option' to={location.pathname === "/" ? '/#contact-us-section' : location.pathname + '/#contact-us-section'}>Contact Us</Link>

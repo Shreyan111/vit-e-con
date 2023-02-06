@@ -8,6 +8,7 @@ import Committee from './Components/Committee/Committee';
 // import Keynote from './Components/Keynote/Keynote';
 import Publication from './Components/Publication/Publication';
 import Registration from './Components/Registration/Registration';
+import SpeakerLottie from './Components/Speaker-Lottie/Speaker-Lottie';
 import ImpDates from './Components/ImpDates/ImpDates';
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <Route path='/call-for-paper' exact element={<CallForPaper />} />
         <Route path='/committee' exact element={<Committee />} />
         <Route path='/publication' exact element={<Publication />} />
+        <Route path='/speakers' exact element={<SpeakerLottie />} />
         <Route path='/registration' exact element={<Registration />} />
       </Routes>
       <ContactUsSection />

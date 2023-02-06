@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import "./Carousel.styles.scss";
 import sponsor1 from "../../Assets/images/ieee-logo-black.png"
+import sponsor2 from "../../Assets/images/logo-black.png"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -15,7 +16,7 @@ export const Carousels = () => {
             text: ""
         },
         {
-            url: sponsor1,
+            url: sponsor2,
             alt: "Image 2",
             text: ""
         },
@@ -25,12 +26,12 @@ export const Carousels = () => {
             text: ""
         },
         {
-            url: sponsor1,
+            url: sponsor2,
             alt: "Image 4",
             text: ""
         },
         {
-            url: sponsor1,
+            url: sponsor2,
             alt: "Image 5",
             text: ""
         },

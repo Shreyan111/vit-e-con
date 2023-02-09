@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import "./Carousel.styles.scss";
 import sponsor1 from "../../Assets/images/ieee-logo.png"
 import sponsor2 from "../../Assets/images/ieeemadras.png"
@@ -11,6 +11,8 @@ import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 export const Carousels = () => {
     const [currentIndex, setCurrentIndex] = useState(0);
     const [translateValue, setTranslateValue] = useState(0);
+
+    const [index, setIndex] = useState(0);
 
     const slides = [
         {
@@ -40,6 +42,20 @@ export const Carousels = () => {
         },
     ];
 
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setIndex((index + 1) % slides.length);
+            setTranslateValue(translateValue - 500);
+            setCurrentIndex(currentIndex + 1);
+            if (currentIndex === slides.length - 1 - 2) {
+                setTranslateValue(0);
+                setCurrentIndex(0);
+            }
+        }, 3000);
+
+        return () => clearInterval(intervalId);
+    }, [index, slides.length]);
+
     const goToPrevSlide = () => {
         if (currentIndex === 0) return;
         setCurrentIndex(currentIndex - 1);
@@ -65,11 +81,11 @@ export const Carousels = () => {
                 className="slides"
                 style={{ transform: `translateX(${translateValue}px)` }}
             >
-                {slides.map((slide, index) => (
+                {slides.map((slide, indexes) => (
                     <div
-                        key={index}
-                        className="slide"
-                        style={{ width: 500, height: 300 }}
+                        key={indexes}
+                        className={`slide ${indexes === index ? "active" : ""}`}
+                        style={{ width: 500, height: 300, opacity: indexes === index ? 1 : 0.5 }}
                     >
                         <img src={slide.url} alt={slide.alt} />
                         <p>{slide.text}</p>

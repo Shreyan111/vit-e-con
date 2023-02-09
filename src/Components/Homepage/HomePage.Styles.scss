@@ -120,6 +120,7 @@
 
                 .btn {
                     outline: none;
+                    width: 25%;
                     border: 1px solid #1C3879;
                     text-align: center;
                     color: #E9E4F0;
@@ -361,6 +362,9 @@
                 .buttons {
                     flex-wrap: wrap;
                     flex-direction: row;
+                    .btn{
+                        width: 40%;
+                    }
                 }
 
                 .event-handlers {

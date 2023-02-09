@@ -63,8 +63,8 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button className='btn'>Presentation Schedule</button>
-                        <button className='btn'>Brochure</button>
+                        <button className='btn'>Submit paper</button>
+                        {/* <button className='btn'>Brochure</button> */}
                         <a className='btn' href='https://www.ieee.org/' target='_blank' rel='noreferrer'>IEEE Website</a>
                     </div>
                     <div className='event-handlers'>

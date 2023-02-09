@@ -10,8 +10,8 @@ import Countdown from "react-countdown";
 import MapSection from '../MapSection/MapSection'
 
 const HomePage = () => {
-    const renderer = ( props ) => {
-        return(
+    const renderer = (props) => {
+        return (
             <div className='timer-container'>
                 <span className='time'>{props.formatted.days}</span>
                 <span className='seperator'>:</span>
@@ -32,29 +32,35 @@ const HomePage = () => {
                 </div>
                 <div className='content'>
                     <div className='heading-logo-container'>
-                        <img src={viteconLogo} alt='vit-logo'/>
+                        <img src={viteconLogo} alt='vit-logo' />
                     </div>
                     <div className='heading-primary'>
                         <span className='small'> IEEE 2nd International Conference on </span><br />
                         <p><span className='orange'>Vi</span>sion <span className='orange'>T</span>owards <span className='orange'>E</span>merging Trends in <br />
-                        <span className='orange'>Co</span>mmunication and <span className='orange'>N</span>etworking Technologies</p>
+                            <span className='orange'>Co</span>mmunication and <span className='orange'>N</span>etworking Technologies</p>
                     </div>
                     <div className='heading-primary orange-only'>
                         ViTECoN-2023
                     </div>
-                    <div className='details'>
-                        <span className='detail event-date'>
-                            <a rel="noreferrer" href='https://calendar.google.com/event?action=TEMPLATE&tmeid=MDUybHVzbjlpMWUxamtka21ycnI5NTM4dWUgeWFzaHdhbnRoa29sbGkzMjcxQG0&tmsrc=yashwanthkolli3271%40gmail.com' target='_blanck'>
-                                <IoCalendarNumberSharp />
-                            </a>
-                            5th - 6th May, 2023
-                        </span>
-                        <span className='detail event-date'>
-                            <a href='https://goo.gl/maps/uHeghJHkexEN4zR4A' rel='noreferrer' target='_blanck'>
-                                <IoLocationSharp />
-                            </a>
-                            School of Electronics Engineering (SENSE), VIT, Vellore, TN, India
-                        </span>
+                    <div>
+                        <div className='details-important'>
+                            <p className='complaint'>Xplore Complaint ISBN: 979-8-3503-4798-2</p>
+                            <p className='usb'>USB ISBN: 979-8-3503-4797-5</p>
+                        </div>
+                        <div className='details'>
+                            <span className='detail event-date'>
+                                <a rel="noreferrer" href='https://calendar.google.com/event?action=TEMPLATE&tmeid=MDUybHVzbjlpMWUxamtka21ycnI5NTM4dWUgeWFzaHdhbnRoa29sbGkzMjcxQG0&tmsrc=yashwanthkolli3271%40gmail.com' target='_blanck'>
+                                    <IoCalendarNumberSharp />
+                                </a>
+                                5th - 6th May, 2023
+                            </span>
+                            <span className='detail event-date'>
+                                <a href='https://goo.gl/maps/uHeghJHkexEN4zR4A' rel='noreferrer' target='_blanck'>
+                                    <IoLocationSharp />
+                                </a>
+                                School of Electronics Engineering (SENSE), VIT, Vellore, TN, India
+                            </span>
+                        </div>
                     </div>
                     <div className='buttons'>
                         <button className='btn'>Presentation Schedule</button>
@@ -70,7 +76,7 @@ const HomePage = () => {
                         <div className='other-details'>
                             <div className='prev-ieee'>
                                 ViTECoN Previous Publications
-                                <div className='links'> 
+                                <div className='links'>
                                     <a href='https://ieeexplore.ieee.org/xpl/conhome/8893975/proceeding' target='_blank' rel='noreferrer'>2019</a>
                                 </div>
                             </div>
@@ -100,7 +106,7 @@ const HomePage = () => {
                 </div>
             </section>
 
-            <section style={{backgroundColor:"#E9E4F0"}}>
+            <section style={{ backgroundColor: "#E9E4F0" }}>
                 <Carousels></Carousels>
             </section>
 
@@ -112,67 +118,67 @@ const HomePage = () => {
             <section className='about-us-section'>
                 <div className='content scope'>
                     <h1 className='heading-secondary'>Scope of ViTECoN</h1>
-                    <div className='text'>The International Conference on Vision Towards Emerging Trends in Communication 
-                    and Networking Technologies (ViTECoN-2023) is the premier forum for the presentation of new advances and research 
-                    results in the fields of Electronics and Communication Engineering. The conference will bring together 
-                    leading researchers, engineers and scientists in the domain of interest from around the world.
-                    <br />
-                    <br />
-                    The scope of the conference includes, but not limited to Electronics, Communication Engineering, Computing, signal 
-                    processing and Image Processing, Genetic Algorithms, Robotics, Machine Learning and Deep Learning, 
-                    Machine Translation, Neural Networks, Next generation Communication and networking, etc.</div>
+                    <div className='text'>The International Conference on Vision Towards Emerging Trends in Communication
+                        and Networking Technologies (ViTECoN-2023) is the premier forum for the presentation of new advances and research
+                        results in the fields of Electronics and Communication Engineering. The conference will bring together
+                        leading researchers, engineers and scientists in the domain of interest from around the world.
+                        <br />
+                        <br />
+                        The scope of the conference includes, but not limited to Electronics, Communication Engineering, Computing, signal
+                        processing and Image Processing, Genetic Algorithms, Robotics, Machine Learning and Deep Learning,
+                        Machine Translation, Neural Networks, Next generation Communication and networking, etc.</div>
                 </div>
                 <div className='content about'>
                     <h1 className='heading-secondary'>About VIT</h1>
                     <div className='text'>
-                        Vellore Institute of Technology was founded in 1984 as Vellore Engineering College by Dr. G. Viswanathan, 
-                        a former Parliamentarian and Minister in the Tamil Nadu government. The Deemed to be University status 
-                        was conferred in June, 2001 by MHRD Govt. of India. Currently, VIT has eco-friendly campuses in Vellore, 
+                        Vellore Institute of Technology was founded in 1984 as Vellore Engineering College by Dr. G. Viswanathan,
+                        a former Parliamentarian and Minister in the Tamil Nadu government. The Deemed to be University status
+                        was conferred in June, 2001 by MHRD Govt. of India. Currently, VIT has eco-friendly campuses in Vellore,
                         Chennai, Amaravathi and Bhopal.
                         <br />
-                        VIT attracts students from all the states and union territories of India and 60 different countries, owing 
+                        VIT attracts students from all the states and union territories of India and 60 different countries, owing
                         to its academic excellence.
                         <div className='img-container'>
                             <img src={vitImg} alt='vit university' />
                         </div>
-                        Vellore Institute of Technology (VIT) has emerged as one of the best institutes of India and is aspiring to 
-                        become a global leader. Having fully committed to its Vision - "Transforming life through excellence in education 
-                        and research", VIT focuses on Quality in teaching-learning, research and innovation, thereby making the institute 
+                        Vellore Institute of Technology (VIT) has emerged as one of the best institutes of India and is aspiring to
+                        become a global leader. Having fully committed to its Vision - "Transforming life through excellence in education
+                        and research", VIT focuses on Quality in teaching-learning, research and innovation, thereby making the institute
                         distinct from others.
                         <br />
                         <br />
-                        VIT is ranked 9th in University Category, 10th in Research Category, 12th in Engineering Category and 18th in 
-                        Overall Category in 2022 NIRF Ranking published by the Ministry of Education, Govt. of India. National Assessment 
-                        and Accreditation Council (NAAC) has accredited VIT with the highest grade A++ in 2021 (4th cycle). 
+                        VIT is ranked 9th in University Category, 10th in Research Category, 12th in Engineering Category and 18th in
+                        Overall Category in 2022 NIRF Ranking published by the Ministry of Education, Govt. of India. National Assessment
+                        and Accreditation Council (NAAC) has accredited VIT with the highest grade A++ in 2021 (4th cycle).
                         <br />
                         Some of the significant achievements of the institution in the last five years are:
                         <br />
-                        •	VIT is one of the top 3 institutions of India and within the top 601-700 Universities of the world as per 
+                        •	VIT is one of the top 3 institutions of India and within the top 601-700 Universities of the world as per
                         Shanghai ARWU Ranking 2022
                         <br />
-                        •	Ranked within top 200 in Asia (QS - Asia University Rankings 2022) 
+                        •	Ranked within top 200 in Asia (QS - Asia University Rankings 2022)
                         <br />
                         •	Eight Subjects of VIT are ranked by QS World University Ranking by Subject 2022
                         <br />
                         •	Ranked No.1 in ARIIA-2019 among the private institutions.
                         <br />
-                        •	Ranked by QS World University Ranking, Times Higher Education (THE) World University Ranking, US News Ranking, 
+                        •	Ranked by QS World University Ranking, Times Higher Education (THE) World University Ranking, US News Ranking,
                         Round University Ranking, Russia and others
                     </div>
                 </div>
                 <div className='content about'>
                     <h1 className='heading-secondary'>About SENSE</h1>
                     <div className='text'>
-                    SENSE at VIT was established for imparting state-of-the-art knowledge in Electronics and Communication Engineering and 
-                    allied areas. Students who are eligible are placed on campus and many of them are placed in 
-                    core companies every year. The school has set up laboratories with excellent infrastructure in the areas of Electronics, 
-                    Communication, VLSI, Embedded, Sensors and Nanotechnology. The latest simulation tools are used to cater to various 
-                    specializations and are equipped with facilities for measurement, characterization and synthesis of experimental 
-                    as well as theoretical results. Students are encouraged to take up their final year projects abroad too. The School has 
-                    many industry sponsored advanced laboratories for carrying research and development. MoUs with many Foreign Universities, 
-                    Research Organizations and Industries facilitate student and faculty exchange. Faculty are actively involved in R&D 
-                    activities and are working on research projects funded by government organisations like DRDO, ISRO (RESPOND), BRNS and 
-                    agencies like DST.
+                        SENSE at VIT was established for imparting state-of-the-art knowledge in Electronics and Communication Engineering and
+                        allied areas. Students who are eligible are placed on campus and many of them are placed in
+                        core companies every year. The school has set up laboratories with excellent infrastructure in the areas of Electronics,
+                        Communication, VLSI, Embedded, Sensors and Nanotechnology. The latest simulation tools are used to cater to various
+                        specializations and are equipped with facilities for measurement, characterization and synthesis of experimental
+                        as well as theoretical results. Students are encouraged to take up their final year projects abroad too. The School has
+                        many industry sponsored advanced laboratories for carrying research and development. MoUs with many Foreign Universities,
+                        Research Organizations and Industries facilitate student and faculty exchange. Faculty are actively involved in R&D
+                        activities and are working on research projects funded by government organisations like DRDO, ISRO (RESPOND), BRNS and
+                        agencies like DST.
                     </div>
                 </div>
             </section>

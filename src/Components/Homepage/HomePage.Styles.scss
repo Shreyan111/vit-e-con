@@ -39,6 +39,7 @@
                 width: 300px;
                 margin: auto;
                 margin-bottom: 20px;
+                margin-top: 50px;
 
                 img {
                     width: 100%;
@@ -69,7 +70,7 @@
 
             .details-important {
                 position: absolute;
-                bottom: 40px;
+                bottom: 20px;
                 right: 2px;
                 display: flex;
                 flex-direction: column;
@@ -78,7 +79,10 @@
                 width: 350px;
                 
                 .complaint{
-                    margin: 50px 0 0 0;
+                    margin: 0;
+                }
+                .usb{
+                    margin-top: 10px;
                 }
             }
 
@@ -155,8 +159,12 @@
 
                 .handler {
                     .logo-container {
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 20px;
                         img {
                             width: 100%;
+                            margin-left: 20px;
                             object-fit: contain;
                         }
                     }
@@ -291,15 +299,13 @@
         }
 
         .landing-section {
-            height: calc(190vh - 140px);
+            height: calc(280vh - 140px);
 
             .college-logo {
                 width: 275px;
             }
 
             .content {
-                margin-top: 200px;
-
                 .heading-primary {
                     font-size: 26px;
                     font-weight: 900;
@@ -307,6 +313,7 @@
 
                 .heading-logo-container {
                     width: 250px;
+                    margin-top: 0px;
                 }
 
                 .buttons {
@@ -320,8 +327,24 @@
                     }
                 }
 
+                .event-handlers{
+                    .handler{
+                        .logo-container{
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            img{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+
                 .details {
                     display: none;
+                }
+                .details-important{
+                    width: 310px;
                 }
             }
         }
@@ -346,7 +369,7 @@
 
     @media (min-width: 601px) and (max-width: 1000px) {
         .landing-section {
-            height: calc(190vh - 140px);
+            height: calc(220vh - 140px);
 
             .college-logo {
                 width: 400px;
@@ -357,6 +380,7 @@
 
                 .heading-logo-container {
                     width: 400px;
+                    margin-top: 0px;
                 }
 
                 .buttons {
@@ -369,10 +393,22 @@
 
                 .event-handlers {
                     margin-bottom: 0px;
+                    .handler{
+                        .logo-container{
+                            img{
+                                width: 80%;
+                            }
+                        }
+                    }
+                }
+
+                .details-important{
+                    left: 20px;
+                    bottom: 20px;
                 }
 
                 .details {
-                    bottom: 50px;
+                    bottom: 150px;
                 }
             }
         }

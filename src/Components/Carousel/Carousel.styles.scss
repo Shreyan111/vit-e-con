@@ -11,7 +11,7 @@
   .slides {
     display: flex;
     transition: transform 0.5s ease-in-out;
-    width: 1500px;
+    width: 1800px;
     overflow-x: hidden;
 
     .slide {
@@ -49,7 +49,7 @@
 @media screen and (max-width: 500px) {
   .carousel{
     .slides{
-      width: 1200px;
+      width: 1400px;
       .slide{
         img{
           width: 150px;

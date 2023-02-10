@@ -51,7 +51,7 @@ const ContactUsSection = () => {
         </div>
       </div>
       <div className='footer'>
-        Made to Perfection by <span><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/yashwanth-kolli-b8b413208/'>Yashwanth Kolli</a> and <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/deepanshu-srivastava-94b533186/'>Deepanshu Srivatsava</a></span>
+        Made to Perfection by <span><a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/yashwanth-kolli-b8b413208/'>Yashwanth Kolli</a>, <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/deepanshu-srivastava-94b533186/'>Deepanshu Srivatsava</a> and <a target='_blank' rel="noreferrer" href='https://www.linkedin.com/in/shreyan-sanyal-41937b1b0/'>Shreyan Sanyal</a></span>
       </div>
     </section>
   )

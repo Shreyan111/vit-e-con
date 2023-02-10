@@ -5,6 +5,7 @@ import sponsor2 from "../../Assets/images/ieeemadras.png"
 import sponsor3 from "../../Assets/images/IETELogo.png"
 import sponsor4 from "../../Assets/images/Prince-Sultan-University.png"
 import sponsor5 from "../../Assets/images/logo-black.png"
+import sponsor6 from "../../Assets/images/ieeecomsoc.png"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 
@@ -40,6 +41,11 @@ export const Carousels = () => {
             alt: "Image 5",
             text: ""
         },
+        {
+            url: sponsor6,
+            alt: "Image 6",
+            text: ""
+        }
     ];
 
     useEffect(() => {
@@ -47,7 +53,7 @@ export const Carousels = () => {
             setIndex((index + 1) % slides.length);
             setTranslateValue(translateValue - 500);
             setCurrentIndex(currentIndex + 1);
-            if (currentIndex === slides.length - 1 - 2) {
+            if (currentIndex === slides.length - 1 - 3) {
                 setTranslateValue(0);
                 setCurrentIndex(0);
             }
@@ -85,7 +91,8 @@ export const Carousels = () => {
                     <div
                         key={indexes}
                         className={`slide ${indexes === index ? "active" : ""}`}
-                        style={{ width: 500, height: 300, opacity: indexes === index ? 1 : 0.5 }}
+                        style={{ width: 500, height: 300 }}
+                        // opacity: indexes === index ? 1 : 0.5
                     >
                         <img src={slide.url} alt={slide.alt} />
                         <p>{slide.text}</p>

@@ -3,8 +3,11 @@ import './HomePage.Styles.scss'
 import { Carousels } from '../Carousel/Carousels'
 import vitLogo from '../../Assets/images/logo.png'
 import viteconLogo from '../../Assets/images/vitecon-logo1.png'
-import ieeeLogo from '../../Assets/images/ieee-logo.png'
 import vitImg from '../../Assets/images/vit-clg.jpg'
+import prince from "../../Assets/images/Prince-Sultan-University.png"
+import iete from "../../Assets/images/IETELogo.png"
+import comsoc from "../../Assets/images/ieeecomsoc.png"
+import madras from "../../Assets/images/ieeemadras.png"
 import { IoCalendarNumberSharp, IoLocationSharp } from 'react-icons/io5'
 import Countdown from "react-countdown";
 import MapSection from '../MapSection/MapSection'
@@ -40,10 +43,11 @@ const HomePage = () => {
                             <span className='orange'>Co</span>mmunication and <span className='orange'>N</span>etworking Technologies</p>
                     </div>
                     <div className='heading-primary orange-only'>
-                        ViTECoN-2023
+                        ViTECoN-Hybrid Conference(In-person and Virtual)-2023
                     </div>
                     <div>
                         <div className='details-important'>
+                            <p className='usb-isbn'><b><u>ISBN's of ViTECoN-2023</u></b></p>
                             <p className='complaint'>Xplore Complaint ISBN: 979-8-3503-4798-2</p>
                             <p className='usb'>USB ISBN: 979-8-3503-4797-5</p>
                         </div>
@@ -63,14 +67,18 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <button className='btn'>Submit paper</button>
+                        <a className='btn' href='https://events.vit.ac.in/events/vitecon2023/'>Submit paper</a>
                         {/* <button className='btn'>Brochure</button> */}
                         <a className='btn' href='https://www.ieee.org/' target='_blank' rel='noreferrer'>IEEE Website</a>
                     </div>
                     <div className='event-handlers'>
                         <div className='handler ieee-details'>
+                            <b>In collaboration with</b>
                             <div className='logo-container'>
-                                <img src={ieeeLogo} alt='IEEE Logo' />
+                                <img src={prince} alt='IEEE Logo' />
+                                <img src={iete} alt='IETE Logo' />
+                                <img src={madras} alt='IEEE Madras Logo' />
+                                <img src={comsoc} alt='IEEE comsoc Logo' />
                             </div>
                         </div>
                         <div className='other-details'>

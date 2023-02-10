@@ -7,7 +7,7 @@ const Registration = () => {
             <h1 className='heading-secondary'>Registration Details</h1>
             <div className='content'>
                 <div className='pricing'>
-                    <h3 className='register-fee-heading'>Registration Fee:</h3>
+                    <h3 className='register-fee-heading'>Registration Fee(Including GST):</h3>
                     <table>
                         <thead>
                             <tr>
@@ -18,12 +18,12 @@ const Registration = () => {
                         </thead>
                         <tbody>
                             <tr>
-                                <th>UG and PG Students </th>
+                                <th>Graduate Students / Research Scholars</th>
                                 <td>Rs. 8,000</td>
                                 <td>Rs. 7,500 </td>
                             </tr>
                             <tr>
-                                <th>Research Scholar / Academicians </th>
+                                <th>Academicians </th>
                                 <td>Rs. 9,000</td>
                                 <td>Rs. 8,500 </td>
                             </tr>
@@ -33,14 +33,19 @@ const Registration = () => {
                                 <td>Rs. 9,500 </td>
                             </tr>
                             <tr>
-                                <th>Participants*</th>
-                                <td>Rs. 3,000</td>
-                                <td>Rs. 2,000 </td>
+                                <th>Participants</th>
+                                <td>Rs. 1,500</td>
+                                <td>Rs. 1,500</td>
                             </tr>
                             <tr>
                                 <th>Additional Conferences kit and Proceedings</th>
                                 <td>Rs. 2,000</td>
                                 <td>Rs. 2,000 </td>
+                            </tr>
+                            <tr>
+                                <th>Foreign Authors</th>
+                                <td>250 USD</td>
+                                <td>225 USD</td>
                             </tr>
                         </tbody>
                     </table>

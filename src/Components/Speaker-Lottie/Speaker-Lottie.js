@@ -20,6 +20,9 @@ const SpeakerLottie = () => {
             <div className='main-lottie'>
                 <Lottie options={defaultOptions}/>
             </div>
+            <div className='coming-soon'>
+                <h1>COMING SOON!!</h1>
+            </div>
         </div>
     )
 }

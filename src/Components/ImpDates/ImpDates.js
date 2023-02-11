@@ -33,11 +33,11 @@ const ImpDates = () => {
                     <div className='dates'>
                         <div className='date'>
                             <div className='date-heading'>Paper Submission Deadline</div>
-                            <div className='date-value'>15th March, 2023</div>
+                            <div className='date-value'>30th March, 2023</div>
                         </div>
                         <div className='date'>
                             <div className='date-heading'>Notification of Acceptance</div>
-                            <div className='date-value'>25th March, 2023</div>
+                            <div className='date-value'>5th April, 2023</div>
                         </div>
                         <div className='date'>
                             <div className='date-heading'>Author Registration</div>

@@ -97,11 +97,11 @@ const HomePage = () => {
                 <div className='dates-part'>
                     <div className='date-container'>
                         <div className='date-heading'>Paper Submission Deadline</div>
-                        <div className='date'>15th March, 2023</div>
+                        <div className='date'>30th March, 2023</div>
                     </div>
                     <div className='date-container'>
                         <div className='date-heading'>Notification of Acceptance</div>
-                        <div className='date'>25th March, 2023</div>
+                        <div className='date'>5th April, 2023</div>
                     </div>
                     <div className='date-container'>
                         <div className='date-heading'>Author Registration</div>

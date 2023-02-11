@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 import './HomePage.Styles.scss'
 import { Carousels } from '../Carousel/Carousels'
 import vitLogo from '../../Assets/images/logo.png'
@@ -13,6 +13,19 @@ import Countdown from "react-countdown";
 import MapSection from '../MapSection/MapSection'
 
 const HomePage = () => {
+    const [bgcolor, setbgColor] = useState("#1C3879");
+    const [ncolor, setnColor] = useState("#E9E4F0");
+
+    useEffect(() => {
+        const intervalId = setInterval(() => {
+            setbgColor(bgcolor === "#1C3879" ? "#E9E4F0" : "#1C3879");
+            setnColor(ncolor === "#E9E4F0" ? "#1C3879" : "#E9E4F0");
+        }, 1000);
+
+        return () => {
+            clearInterval(intervalId);
+        };
+    }, [bgcolor]);
     const renderer = (props) => {
         return (
             <div className='timer-container'>
@@ -59,7 +72,7 @@ const HomePage = () => {
                                 5th - 6th May, 2023
                             </span>
                             <span className='detail event-date'>
-                                <a href='https://goo.gl/maps/uHeghJHkexEN4zR4A' rel='noreferrer' target='_blanck'>
+                                <a href='https://goo.gl/maps/uHeghJHkexEN4zR4A' rel='noreferrer' target='_blank'>
                                     <IoLocationSharp />
                                 </a>
                                 School of Electronics Engineering (SENSE), VIT, Vellore, TN, India
@@ -67,9 +80,12 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <a className='btn' href='https://events.vit.ac.in/events/vitecon2023/'>Submit paper</a>
+                        <a className='btn' href='https://events.vit.ac.in/events/vitecon2023/' target='_blank' style={{
+                            backgroundColor: bgcolor,
+                            color: ncolor,
+                        }}>Submit paper</a>
                         {/* <button className='btn'>Brochure</button> */}
-                        <a className='btn' href='https://www.ieee.org/' target='_blank' rel='noreferrer'>IEEE Website</a>
+                        <a className='btn-web' href='https://www.ieee.org/' target='_blank' rel='noreferrer'>IEEE Website</a>
                     </div>
                     <div className='event-handlers'>
                         <div className='handler ieee-details'>

@@ -29,6 +29,9 @@ const Committee = () => {
                         Dr. Velmurugan T, Asso. Prof. SENSE<br />
                         Dr. Nandakumar S, Asso. Prof., SENSE<br />
                         Dr. Sankar Ganesh S, Asst Prof. – SENSE, Asst Director - SW<br />
+                        <h3>Website and Brochure</h3>
+                        Dr. Poongundran Selvaprabhu, Asso. Prof. SENSE (Phone no. : +91-6382542943)<br />
+                        Dr. Muglean R K, Asso. Prof., SENSE (Phone no. : +91-8056428833)<br />
                         <h3>Apex Committee</h3>
                         Dr. Prakasam P, HoD, Department of Communication Engineering<br />
                         Dr. Kumaravel S, HoD, Department of Micro and Nano Electronics<br />

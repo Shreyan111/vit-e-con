@@ -1,7 +1,7 @@
 .homepage {
 
     .landing-section {
-        height: calc(150vh - 140px);
+        height: calc(170vh - 140px);
         background: #D3CCE3;
         /* fallback for old browsers */
         background: -webkit-linear-gradient(to right, #E9E4F0, #D3CCE3);
@@ -177,10 +177,17 @@
             .event-handlers {
                 display: flex;
                 flex-direction: column;
-                justify-content: space-between;
+                justify-content: center;
                 align-items: center;
                 margin: 25px auto;
-                width: 85%;
+                width: 100%;
+
+                .detail{
+                    p{
+                        margin-top: 0;
+                        font-size: 22px;
+                    }
+                }
 
                 .handler {
                     .logo-container {
@@ -196,6 +203,9 @@
                 }
 
                 .ieee-details {
+                    p{
+                        margin-top: 20px;
+                    }
                     .logo-container {
                         width: 150px;
                     }
@@ -318,13 +328,91 @@
 
     }
 
-    @media screen and (max-width: 600px) {
+    @media (min-width: 401px) and (max-width: 600px) {
         .dates-part {
             display: none;
         }
 
         .landing-section {
-            height: calc(280vh - 140px);
+            height: calc(270vh - 140px);
+
+            .college-logo {
+                width: 275px;
+            }
+
+            .content {
+                .heading-primary {
+                    font-size: 26px;
+                    font-weight: 900;
+                }
+
+                .heading-logo-container {
+                    width: 250px;
+                    margin-top: 0px;
+                }
+
+                .buttons {
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-direction: column;
+
+                    .btn {
+                        width: 175px;
+                        padding: 10px 0 10px 0;
+                    }
+                    .btn-web{
+                        width: 175px;
+                        padding: 10px 0 10px 0;
+                    }
+                }
+
+                .event-handlers{
+                    .handler{
+                        .logo-container{
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            img{
+                                margin-top: 20px;
+                            }
+                        }
+                    }
+                }
+
+                .details {
+                    display: none;
+                }
+                .details-important{
+                    width: 310px;
+                }
+            }
+        }
+
+        .countdown-section {
+            overflow-x: scroll;
+
+            .timer-container {
+                .time {
+                    padding: 5px;
+                    margin: 15px;
+                }
+            }
+        }
+
+        .about-us-section {
+            .img-container {
+                width: 80% !important;
+            }
+        }
+    }
+
+    @media screen and (max-width: 400px) {
+        .dates-part {
+            display: none;
+        }
+
+        .landing-section {
+            height: calc(300vh - 140px);
 
             .college-logo {
                 width: 275px;

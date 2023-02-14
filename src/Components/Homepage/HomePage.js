@@ -88,8 +88,11 @@ const HomePage = () => {
                         <a className='btn-web' href='https://www.ieee.org/' target='_blank' rel='noreferrer'>IEEE Website</a>
                     </div>
                     <div className='event-handlers'>
+                        <div className='detail event-date'>
+                            <p><b>Organized by</b> School of Electronics Engineering (SENSE), VIT, Vellore, TN, India</p>
+                        </div>
                         <div className='handler ieee-details'>
-                            <b>In collaboration with</b>
+                            <p><b>In collaboration with</b></p>
                             <div className='logo-container'>
                                 <img src={prince} alt='IEEE Logo' />
                                 <img src={iete} alt='IETE Logo' />
@@ -113,15 +116,15 @@ const HomePage = () => {
                 <div className='dates-part'>
                     <div className='date-container'>
                         <div className='date-heading'>Paper Submission Deadline</div>
-                        <div className='date'>30th March, 2023</div>
+                        <div className='date'>7th April, 2023</div>
                     </div>
                     <div className='date-container'>
                         <div className='date-heading'>Notification of Acceptance</div>
-                        <div className='date'>5th April, 2023</div>
+                        <div className='date'>10th April, 2023</div>
                     </div>
                     <div className='date-container'>
                         <div className='date-heading'>Author Registration</div>
-                        <div className='date'>8th April, 2023</div>
+                        <div className='date'>12th April, 2023</div>
                     </div>
                     <div className='date-container'>
                         <div className='date-heading'>Conference Date</div>

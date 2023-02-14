@@ -51,7 +51,7 @@ const Registration = () => {
                     </table>
                 </div>
                 <div className='buttons'>
-                    <button className='btn'>IEEE Paper Format</button>
+                    <button className='btn'><a href='https://www.ieee.org/conferences/publishing/templates.html' target='_blank'>IEEE Paper Format</a></button>
                     <button className='btn'>IEEE Copyright Form</button>
                     <button className='btn'>Submit Copyright Form</button>
                 </div>

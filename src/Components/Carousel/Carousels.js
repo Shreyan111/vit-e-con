@@ -5,7 +5,7 @@ import sponsor2 from "../../Assets/images/ieeemadras.png"
 import sponsor3 from "../../Assets/images/IETELogo.png"
 import sponsor4 from "../../Assets/images/Prince-Sultan-University.png"
 import sponsor5 from "../../Assets/images/logo-black.png"
-import sponsor6 from "../../Assets/images/ieeecomsoc.png"
+import sponsor6 from "../../Assets/images/comsoc-sc.svg"
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import ArrowForwardIosIcon from '@mui/icons-material/ArrowForwardIos';
 

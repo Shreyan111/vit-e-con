@@ -6,7 +6,7 @@ import viteconLogo from '../../Assets/images/vitecon-logo1.png'
 import vitImg from '../../Assets/images/vit-clg.jpg'
 import prince from "../../Assets/images/Prince-Sultan-University.png"
 import iete from "../../Assets/images/IETELogo.png"
-import comsoc from "../../Assets/images/ieeecomsoc.png"
+import comsoc from "../../Assets/images/comsoc-sc.svg"
 import madras from "../../Assets/images/ieeemadras.png"
 import { IoCalendarNumberSharp, IoLocationSharp } from 'react-icons/io5'
 import Countdown from "react-countdown";

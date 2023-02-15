@@ -1,5 +1,6 @@
 import React from 'react'
 import './CallForPaper.Styles.scss'
+import Accordion from '../Accordion/Accordion'
 
 const CallForPaper = () => {
     return (
@@ -12,9 +13,14 @@ const CallForPaper = () => {
                     and must not be under consideration for publication elsewhere.
                 </p>
                 <div className='topics-container'>
-                    <div className='topic'>
+
+                    <h1 className='heading-secondary-2'>Tracks</h1>
+                    <Accordion></Accordion>
+
+
+                    {/* <div className='topic'>
                         <h1 className='topic-heading'>Track 1: Smart Electronics Systems (SES)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Communication Circuits</li>
                             <li>RF, Analog and Mixed-Signal Circuits</li>
                             <li>Optoelectronic Circuits</li>
@@ -39,12 +45,11 @@ const CallForPaper = () => {
                             <li>Nano-electronics</li>
                             <li>Nano-photonics</li>
                             <li>Smart seneors</li>
-                        </ul> */}
+                        </ul>
                     </div>
-
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 2: Next Generation Wireless Communication Technologies (AGWCT)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Optical Communication</li>
                             <li>Satellite Communication</li>
                             <li>Microwave Communication</li>
@@ -63,12 +68,11 @@ const CallForPaper = () => {
                             <li>Cognitive Radio Design</li>
                             <li>MIMO systems</li>
                             <li>Smart Grid Communication</li>
-                        </ul> */}
+                        </ul>
                     </div>
-
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 3: Advanced Wireless Networks (AWN)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Scientific Computing</li>
                             <li>High throughput Computing</li>
                             <li>Artificial Intelligence</li>
@@ -83,12 +87,11 @@ const CallForPaper = () => {
                             <li>DNA Computing</li>
                             <li>Virtual Reality</li>
                             <li>Health care Informatics</li>
-                        </ul> */}
+                        </ul>
                     </div>
-
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 4: Smart Antenna and RF Technologies for next generation Communication(SARF)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Artificial Intelligence</li>
                             <li>Signal Processing for Communication</li>
                             <li>Image & Video Signal Processing</li>
@@ -104,12 +107,11 @@ const CallForPaper = () => {
                             <li>Optimization Techniques</li>
                             <li>Signal Processing for Big Data</li>
                             <li>Machine Learning and Optimization</li>
-                        </ul> */}
+                        </ul>
                     </div>
-
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 5: Signal and Image Processing (SIP)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Future-generation core and radio access networks for 5G communications</li>
                             <li>HetNets and Femtocells for Green Communication Networks</li>
                             <li>Millimetre wave and Terahertz for 5G</li>
@@ -126,11 +128,11 @@ const CallForPaper = () => {
                             <li>Higher order Massive MIMO and multiuser communication for 5G</li>
                             <li>Advanced multiple access designs for 5G networks</li>
                             <li>Base station antenna design for 5G MIMO systems</li>
-                        </ul> */}
+                        </ul>
                     </div>
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 6: Advanced Computing and Information Systems Security (ACISS)</h1>
-                        {/* <ul>
+                        <ul>
                             <li>Artificial Intelligence</li>
                             <li>Signal Processing for Communication</li>
                             <li>Image & Video Signal Processing</li>
@@ -146,11 +148,11 @@ const CallForPaper = () => {
                             <li>Optimization Techniques</li>
                             <li>Signal Processing for Big Data</li>
                             <li>Machine Learning and Optimization</li>
-                        </ul> */}
+                        </ul>
                     </div>
                     <div className='topic'>
                         <h1 className='topic-heading'>Track 7: Women in Engineering (WiE)</h1>
-                        {/* <ul>
+                         <ul>
                             <li>Artificial Intelligence</li>
                             <li>Signal Processing for Communication</li>
                             <li>Image & Video Signal Processing</li>
@@ -166,8 +168,8 @@ const CallForPaper = () => {
                             <li>Optimization Techniques</li>
                             <li>Signal Processing for Big Data</li>
                             <li>Machine Learning and Optimization</li>
-                        </ul> */}
-                    </div>
+                        </ul>
+                    </div> */}
                 </div>
             </div>
         </div>

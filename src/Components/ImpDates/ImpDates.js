@@ -52,6 +52,7 @@ const ImpDates = () => {
                         <div className='contact'>
                             <div className='name'>Dr. THANIKAISELVAN V</div>
                             <div className='email'>convenor.vitecon@vit.ac.in</div>
+                            <div className='email'>convenor.vitecon@gmail.com</div>
                             <div className='phone'>+91 8807717720</div>
                         </div>
                     </div>

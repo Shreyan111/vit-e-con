@@ -32,6 +32,7 @@ const Committee = () => {
                         <h3>Website and Brochure</h3>
                         Dr. Poongundran Selvaprabhu, Asso. Prof. SENSE (Phone no. : +91-6382542943)<br />
                         Dr. Muglean R K, Asso. Prof., SENSE (Phone no. : +91-8056428833)<br />
+                        Dr. Vijendra Babu D
                         <h3>Apex Committee</h3>
                         Dr. Prakasam P, HoD, Department of Communication Engineering<br />
                         Dr. Kumaravel S, HoD, Department of Micro and Nano Electronics<br />

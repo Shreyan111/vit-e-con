@@ -45,14 +45,14 @@ const Registration = () => {
                             <tr>
                                 <th>Foreign Authors</th>
                                 <td>250 USD</td>
-                                <td>225 USD</td>
+                                <td>200 USD</td>
                             </tr>
                         </tbody>
                     </table>
                 </div>
                 <div className='buttons'>
                     <button className='btn'><a href='https://www.ieee.org/conferences/publishing/templates.html' target='_blank'>IEEE Paper Format</a></button>
-                    <button className='btn'>IEEE Copyright Form</button>
+                    {/* <button className='btn'>IEEE Copyright Form</button> */}
                     <button className='btn'>Submit Copyright Form</button>
                 </div>
             </div>

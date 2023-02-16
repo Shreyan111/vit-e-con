@@ -23,6 +23,7 @@ const ContactUsSection = () => {
           <div className='contact-detail'>
             <span>Write To Us</span>
             <span>convenor.vitecon@vit.ac.in</span>
+            <span>convenor.vitecon@gmail.com</span>
           </div>
         </div>
         <div className='contact'>

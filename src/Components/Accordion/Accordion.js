@@ -52,7 +52,7 @@ export default function SimpleAccordion() {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                 >
-                    <Typography style={{fontSize: '20px'}}><b>Track 2: Next Generation Wireless Communication Techniques</b></Typography>
+                    <Typography style={{fontSize: '20px'}}><b>Track 2: Next Generation Wireless Communication Techniques (NGWCT)</b></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>
@@ -97,7 +97,7 @@ export default function SimpleAccordion() {
                     aria-controls="panel2a-content"
                     id="panel2a-header"
                 >
-                    <Typography style={{fontSize: '20px'}}><b>Track 3: Advanced Wireless Networks</b></Typography>
+                    <Typography style={{fontSize: '20px'}}><b>Track 3: Advanced Wireless Networks (AWN)</b></Typography>
                 </AccordionSummary>
                 <AccordionDetails>
                     <Typography>

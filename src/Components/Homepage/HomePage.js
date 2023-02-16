@@ -90,8 +90,10 @@ const HomePage = () => {
                     <div className='event-handlers'>
                         <div className='detail event-date'>
                             <p><b>Organized by</b> School of Electronics Engineering (SENSE), VIT, Vellore, TN, India</p>
+                            <p><b>Association with</b> Prince Sultan University - Saudi Arabia, IETE, IEEE ComSoc VIT Student Chapter</p>   
                         </div>
                         <div className='handler ieee-details'>
+
                             <p><b>In collaboration with</b></p>
                             <div className='logo-container'>
                                 <img src={prince} alt='IEEE Logo' />

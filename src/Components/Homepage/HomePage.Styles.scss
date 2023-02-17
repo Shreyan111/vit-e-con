@@ -38,8 +38,6 @@
             .heading-logo-container {
                 width: 300px;
                 margin: auto;
-                margin-bottom: 20px;
-                margin-top: 50px;
 
                 img {
                     width: 100%;
@@ -334,7 +332,7 @@
         }
 
         .landing-section {
-            height: calc(290vh - 140px);
+            height: calc(270vh - 140px);
 
             .college-logo {
                 width: 275px;
@@ -519,6 +517,9 @@
                                 width: 80%;
                             }
                         }
+                    }
+                    .other-details{
+                        margin-bottom: 20px;
                     }
                 }
 

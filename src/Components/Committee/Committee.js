@@ -82,29 +82,29 @@ const Committee = () => {
                         Dr. V. Nagarajan, Member, EXCOM, IEEE Madras Section	<br />
                         Dr. S.  Rathinavel, Member, EXCOM, IEEE Madras Section<br />
                         <h3 className='technical-program-committee'>Technical Program Committee</h3>
-                        Dr Ganesh Neelakanta Iyer, Ph.D. NUS, Singapore<br />
+                        Dr. Ganesh Neelakanta Iyer, Ph.D. NUS, Singapore<br />
                         Dr. Mohd Fareq Abd Malek, University of Wollongong in Dubai<br />
                         Dr. Sivaraman Eswaran, Curtin University Malaysia<br />
                         Dr. Suresh Sankaranarayanan, King Faisal University, KSA<br />
-                        Dr.Ruby Annette, AI Researcher, Texas, USA<br />
-                        Dr Basim Alhadidi, PhD, Al-Balqa Applied University, Jordan<br />
-                        Dr Md Shohel Sayeed, Multimedia University, Malaysia<br />
+                        Dr. Ruby Annette, AI Researcher, Texas, USA<br />
+                        Dr. Basim Alhadidi, PhD, Al-Balqa Applied University, Jordan<br />
+                        Dr. Md Shohel Sayeed, Multimedia University, Malaysia<br />
                         Dr. Pascal LORENZ, University of Haute Alsace, France<br />
-                        Dr Sanjay Misra, Ostfold University, Halden Norway<br />
+                        Dr. Sanjay Misra, Ostfold University, Halden Norway<br />
                         Dr. Sardar M. N. Islam (Naz) Ph. D.,Victoria University, Melbourne, Australia<br />
-                        .Dr. Serdar Ethem Hamamci, Inonu University, Turkiye<br />
+                        Dr. Serdar Ethem Hamamci, Inonu University, Turkiye<br />
                         Dr. Yu-Chen Hu, Providence University, Republic of China (Taiwan)<br />
-                        Dr Joan Lu, University of Huddersfield, UK<br />
-                        Dr Joy I-Z Chen, Dayeh University, Taiwan<br />
-                        Dr Ljiljana Trajkovic, Ph.D., P.Eng., FIEEE, Simon Fraser University, Canada<br />
-                        Dr Danilo Pelusi, University of Teramo, Italy<br />
-                        Dr Subramaniam Ganesan, Oakland University, USA<br />
-                        Dr Paulvanna Nayaki Marimuthu, Kuwait University, Kuwait<br />
+                        Dr. Joan Lu, University of Huddersfield, UK<br />
+                        Dr. Joy I-Z Chen, Dayeh University, Taiwan<br />
+                        Dr. Ljiljana Trajkovic, Ph.D., P.Eng., FIEEE, Simon Fraser University, Canada<br />
+                        Dr. Danilo Pelusi, University of Teramo, Italy<br />
+                        Dr. Subramaniam Ganesan, Oakland University, USA<br />
+                        Dr. Paulvanna Nayaki Marimuthu, Kuwait University, Kuwait<br />
                         Dr. Ramani Kannan, Universiti Teknologi PETRONAS,Malaysia<br />
-                        Dr Amjad Anvari-Moghaddam, Aalborg University, Denmark<br />
-                        Dr R.Badlishah Ahmad, University Malaysia Perlis (UniMAP), Malaysia<br />
-                        Dr Jacob Scharcanski, Instituto de Informática, Brasil<br />
-                        Dr GUNASEKARAN ,University of Technology and Applied Sciences, Muscat<br />
+                        Dr. Amjad Anvari-Moghaddam, Aalborg University, Denmark<br />
+                        Dr. R.Badlishah Ahmad, University Malaysia Perlis (UniMAP), Malaysia<br />
+                        Dr. Jacob Scharcanski, Instituto de Informática, Brasil<br />
+                        Dr. GUNASEKARAN ,University of Technology and Applied Sciences, Muscat<br />
                     </div>
                     <div className='text'>
                         <h1 className='student-organising-committee'>Student Organising Committee</h1>

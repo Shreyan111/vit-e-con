@@ -326,6 +326,12 @@
 
     }
 
+    @media (min-width: 1440px){
+        .landing-section{
+            height: calc(130vh - 140px);
+        }
+    }
+
     @media (min-width: 401px) and (max-width: 600px) {
         .dates-part {
             display: none;

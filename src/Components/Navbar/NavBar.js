@@ -53,6 +53,15 @@ const NavBar = () => {
     setAnchorEldate(null);
   };
 
+  const [anchorElvenue, setAnchorElvenue] = useState(null);
+  const openDropDownvenue = Boolean(anchorElvenue);
+  const handleMouseOvervenue = (event) => {
+    setAnchorElvenue(event.currentTarget);
+  };
+  const handleClosevenue = () => {
+    setAnchorElvenue(null);
+  };
+
 
   const [opens, setOpens] = useState(false)
 
@@ -95,7 +104,9 @@ const NavBar = () => {
           <Link className='nav-option' to='/publication'>Publication</Link>
           <Link className='nav-option' to='/speakers'>Speakers</Link>
           <Link className='nav-option' to='/registration'>Registration</Link>
-          <Link className='nav-option' to='/#map-section'>Venue</Link>
+          <Link className='nav-option' to='/#map-section' onMouseOver={handleMouseOvervenue} aria-controls={openDropDownvenue ? 'date-2' : undefined}
+            aria-haspopup="true"
+            aria-expanded={openDropDownvenue ? 'true' : undefined}>Venue & Travel</Link>
           <Link className='nav-option' to={location.pathname === "/" ? '/#contact-us-section' : location.pathname + '/#contact-us-section'}>Contact Us</Link>
         </div>
         <Menu
@@ -127,6 +138,21 @@ const NavBar = () => {
         >
           <Link className='dropdown-item' to='/call-for-paper'><MenuItem>Call for Papers</MenuItem></Link>
           <Link className='dropdown-item' to='/' onClick={handleClicks}><MenuItem>Important Dates</MenuItem></Link>
+          <Link className='dropdown-item' to='/author-guidelines'><MenuItem>Author Guidelines</MenuItem></Link>
+        </Menu>
+
+        <Menu
+          id="date-2"
+          anchorEl={anchorElvenue}
+          open={openDropDownvenue}
+          onClose={handleClosevenue}
+          disableScrollLock={true}
+          MenuListProps={{
+            'aria-labelledby': 'basic-button',
+            onMouseLeave: handleClosevenue
+          }}
+        >
+          <Link className='dropdown-item' to='/travel-visa'><MenuItem>Travel & VISA</MenuItem></Link>
         </Menu>
 
         <SwipeableDrawer

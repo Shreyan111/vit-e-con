@@ -43,57 +43,70 @@
 //         }
 //     }
 // }
-.speakers {
+.speakers-top {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 110px 0 40px 0;
+    padding: 100px 0 20px 0;
     background: -webkit-linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
     /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     background-image: linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
 
-    &>.speaker-card {
+    .speakers {
         display: flex;
-        flex-basis: calc(25% - 2rem);
-        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
         align-items: center;
-        margin: 1rem;
-        opacity: 0;
-        transform: translateY(50px);
-        transition: opacity 0.5s ease, transform 0.5s ease;
+        padding: 0px 0 20px 0;
+        background: -webkit-linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
+        /* Chrome 10-25, Safari 5.1-6 */
+        background: linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
+        /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+        background-image: linear-gradient(to right, #e0dbe1, #ded9df, #dfdae1, #dcd6e0, #ded8e2, #dad4e0, #d9d3e1, #d5d1df, #d5cede);
 
-        &.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
+        &>.speaker-card {
+            display: flex;
+            flex-basis: calc(25% - 2rem);
+            flex-direction: column;
+            align-items: center;
+            margin: 1rem;
+            opacity: 0;
+            transform: translateY(50px);
+            transition: opacity 0.5s ease, transform 0.5s ease;
 
-        &>.speaker-image {
-            width: 150px;
-            height: 150px;
-            overflow: hidden;
-            border-radius: 50%;
-            margin-bottom: 1rem;
-
-            &>img {
-                width: 100%;
-                height: 100%;
-                object-fit: cover;
-            }
-        }
-
-        &>.speaker-info {
-            text-align: center;
-
-            &>h2 {
-                font-size: 1.5rem;
-                margin-bottom: 0.5rem;
+            &.visible {
+                opacity: 1;
+                transform: translateY(0);
             }
 
-            &>p {
-                font-size: 1rem;
+            &>.speaker-image {
+                width: 175px;
+                height: 175px;
+                overflow: hidden;
+                border-radius: 50%;
+                margin-bottom: 1rem;
+
+                &>img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            &>.speaker-info {
+                text-align: center;
+
+                &>h2 {
+                    font-size: 1.5rem;
+                    margin-bottom: 0.5rem;
+                }
+
+                &>p {
+                    font-size: 1rem;
+                }
             }
         }
     }

@@ -28,21 +28,8 @@
         .content {
             width: 80%;
             margin: auto;
-
-            .topics-container {
-                width: 100%;
-
-                .topic {
-                    width: 50%;
-
-                    .topic-heading {
-                        font-size: 32px;
-                    }
-
-                    ul {
-                        margin-left: 25%;
-                    }
-                }
+            .text{
+                font-size: 22px;
             }
         }
     }

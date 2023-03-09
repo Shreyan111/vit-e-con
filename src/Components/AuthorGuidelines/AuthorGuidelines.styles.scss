@@ -24,6 +24,18 @@
         }
     }
 
+    @media (max-width: 900px){
+        .content{
+            .text{
+                p{
+                    .upper-link{
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+
     @media (min-width: 681px) and (max-width: 1900px) {
         .content {
             width: 80%;

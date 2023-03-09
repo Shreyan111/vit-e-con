@@ -152,6 +152,7 @@ const NavBar = () => {
             onMouseLeave: handleClosevenue
           }}
         >
+          <Link className='dropdown-item' to='/#map-section'><MenuItem>Venue</MenuItem></Link>
           <Link className='dropdown-item' to='/travel-visa'><MenuItem>Travel & VISA</MenuItem></Link>
         </Menu>
 

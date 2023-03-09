@@ -19,7 +19,7 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <CheckSessions />
+      {/* <CheckSessions /> */}
       <InviteSponsors />
       <ImpDates />
       <Routes>

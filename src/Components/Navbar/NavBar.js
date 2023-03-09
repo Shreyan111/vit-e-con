@@ -206,10 +206,12 @@ const NavBar = () => {
             Committee
           </Link>
           <Link className='nav-option' to='/call-for-paper'>Call for Paper</Link>
+          <Link className='nav-option' to='/author-guidelines'>Author Guidelines</Link>
           <Link className='nav-option' to='/publication'>Publication</Link>
           <Link className='nav-option' to='/speakers'>Speakers</Link>
           <Link className='nav-option' to='/registration'>Registration</Link>
           <Link className='nav-option' to='/#map-section'>Venue</Link>
+          <Link className='nav-option' to='/travel-visa'>Travel & VISA</Link>
           <Link className='nav-option' to={location.pathname === "/" ? '/#contact-us-section' : location.pathname + '/#contact-us-section'}>Contact Us</Link>
           {/* <Link className='nav-option' to={location.pathname === '/' ? '/#contact-us-section' : '/cars/#contact-us-section'}>Contact Us</Link> */}
         </div>

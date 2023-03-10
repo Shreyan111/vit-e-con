@@ -80,7 +80,7 @@ const HomePage = () => {
                         </div>
                     </div>
                     <div className='buttons'>
-                        <a className='btn' href='https://events.vit.ac.in/events/vitecon2023/' target='_blank' style={{
+                        <a className='btn' href='https://vitecon.vit.ac.in/' target='_blank' style={{
                             backgroundColor: bgcolor,
                             color: ncolor,
                         }}>Submit paper</a>
